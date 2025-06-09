@@ -17,5 +17,11 @@ def password(password):
 @app.route('/usuario', methods=["GET"])
 def usuario():
     pass
+
+@app.route('/rutaactualizar', methods=["GET"])
+def rutaactualizar():
+    return render_template('index.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
