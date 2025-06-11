@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Archivos de caché
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Archivos de sistema Linux
+.cache/
+.config/
+.local/
+Trash/
+*.pid

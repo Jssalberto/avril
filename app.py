@@ -22,6 +22,8 @@ def usuario():
 def rutaactualizar():
     return render_template('index.html')
 
-
+@app.route('/escritorio/', methods=["GET"])
+def escritorio():
+    return render_template('escritorio.html')
 if __name__ == '__main__':
     app.run(debug=True)
